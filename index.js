@@ -102,9 +102,9 @@ function result(){
     calculatePercentage();
   } else if (inputNumber.includes('Rand')) { 
     selectRandom();
-  }
- else
-  {
+  } else if (inputNumber.includes('Error')){
+    clirInput();
+  } else {
   try {
     inputNumber = eval(inputNumber).toString();
   } catch(error) {
