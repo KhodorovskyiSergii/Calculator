@@ -2,7 +2,7 @@ let inputNumber = '';
 let displayOperator = null;
 
 function selectNumber(number){
-  if(inputNumber === '.' || inputNumber === 'let`s continue'){
+  if(inputNumber === '.' || inputNumber === 'let`s continue' || inputNumber === 'Error'){
     inputNumber = number;
   } else {
     inputNumber += number;
