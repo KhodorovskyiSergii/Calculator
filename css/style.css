@@ -1,40 +1,47 @@
-body {
+body{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background-image: url(../images/audio_quality_spatial_figure__clxltt2m0z2a_xlarge_2x\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
     height: 100vh;
+    border: 3px solid #09f120;
     margin: 0;
-    background-color: #12e80f;
 }
 
-.calculator {
-    border: 5px solid;
+
+
+.calculator{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3px;
-    max-width: 800px;
-    margin: auto;
+    gap: 4px;
+    max-width: 500px;
+    border: 4px solid #170d44;
+    padding: 4px;
 }
 
-.display {
-    grid-column: span 4;
-    background-color: #f0f0f0;
-    padding: 10px;
-    font-size: 1.5em;
-    text-align: right;
+.display{
+   
+   grid-column: span 4; 
+   padding: 9px;
+   font-size: 1.5em;
+   background-color: #d6f7f8;
+   border: 3px solid black;
 }
 
-.numbers{
-
-}
-
-button {
-    width: 100%;
-    padding: 10px;
+button{
+   
+    padding: 9px;
     font-size: 1.2em;
     cursor: pointer;
+    width: 100%;
+    background-color: #c2f2f4;
+    border: 3px solid #141514;
 }
 
 button:active {
-    background-color: #f70d0d;
+    background-color: #3f0edd;
+    border: 3px solid #e41515;
 }
